@@ -10,7 +10,8 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            message: 'Ciao, benvenuto nella mia pagina VUE JS'
+            message: 'Benvenuto nella mia pagina VUE JS',
+            imageUrl: "https://www.ilsegretodellacqua.it/wp-content/uploads/2018/10/Ideogramma-ki-200x197.jpg"
         }
     }
 }).mount('#app')

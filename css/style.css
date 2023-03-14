@@ -5,23 +5,29 @@
 }
 
 body {
-    font-family: sans-serif;
-    background-color: rgba(177, 160, 160, 0.9);
+    font-family: Georgia, sans-serif;
+    background-color: rgba(231, 219, 219, 0.918);
 }
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: aquamarine;
+    padding: 10px;
+    background-color: rgba(68, 221, 170, 0.514);
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    box-shadow: 5px 5px 10px 5px #333333;
+
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
 }
